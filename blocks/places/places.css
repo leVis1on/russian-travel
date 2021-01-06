@@ -1,7 +1,7 @@
 .places {
     justify-content: center;
     display: grid;
-    gap: 80px
+    gap: 80px;
 }
 
 @media (max-width: 720px) {

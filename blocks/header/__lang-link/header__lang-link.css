@@ -1,0 +1,39 @@
+.header__lang-link {
+    font-size: 24px;
+    line-height: 1.17;
+    font-weight: 400;
+    transition: opacity 0.4s ease-in-out;
+    color: white;
+    padding-left: 18px;
+    margin: 0;
+    align-self: end;
+}
+
+.header__lang-link:link {
+    color: white;
+    text-decoration: none;
+}
+.header__lang-link:visited {
+    color: white;
+    text-decoration: none;
+}
+.header__lang-link:active {
+    color: white;
+    text-decoration: none;
+}
+.header__lang-link:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.header__lang-link:nth-of-type(1) {
+    text-decoration: underline;
+}
+
+@media (max-width: 425px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 1.11;
+    }
+}

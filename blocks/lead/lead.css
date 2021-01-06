@@ -1,0 +1,12 @@
+.lead {
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    max-width: 984px;
+}
+
+@media (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+    }
+}

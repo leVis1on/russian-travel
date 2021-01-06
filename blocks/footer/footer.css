@@ -1,0 +1,17 @@
+.footer {
+    display: grid;
+    grid-template-columns:  repeat(5, min-content) 1fr;
+    padding: 0 48px 24px 48px;
+}
+
+@media (max-width: 743px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        padding: 0 0 24px 16px;
+    }
+}

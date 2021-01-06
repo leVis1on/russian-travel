@@ -1,0 +1,22 @@
+.place__link {
+    transition: opacity 0.4s ease-in-out;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.place__link:link {
+    color: white;
+}
+.place__link:visited {
+    color: white;
+}
+.place__link:active {
+    color: white;
+}
+.place__link:hover {
+    color: white;
+    opacity: 0.8;
+}

@@ -1,0 +1,27 @@
+.intro {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, min-content);
+    justify-content: center;
+    padding-top: 92px;
+    max-width: 984px;
+}
+
+@media (max-width: 1024px) {
+    .intro {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 425px) {
+    .intro {
+        max-width: 288px;
+    }
+}

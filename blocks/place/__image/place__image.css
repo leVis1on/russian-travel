@@ -1,0 +1,28 @@
+.place__image {
+    width: 460px;
+    grid-area: image;
+}
+
+@media (max-width: 1024px) {
+    .place__image {
+        width: 440px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place__image {
+        width: 340px;
+    }
+}
+
+@media (max-width: 720px) {
+    .place__image {
+        padding-bottom: 32px;
+    }
+}
+
+@media (max-width: 425px) {
+    .place__image {
+        width: 320px;
+    }
+}

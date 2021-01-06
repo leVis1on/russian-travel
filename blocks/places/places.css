@@ -1,0 +1,23 @@
+.places {
+    justify-content: center;
+    display: grid;
+    gap: 80px
+}
+
+@media (max-width: 720px) {
+    .places {
+        justify-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .places {
+        gap: 73px;
+    }
+}
+
+@media (max-width: 425px) {
+    .places {
+        gap: 50px;
+    }
+}

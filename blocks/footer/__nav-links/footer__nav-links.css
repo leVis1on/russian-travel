@@ -1,0 +1,10 @@
+.footer__nav-links {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 743px) {
+    .footer__nav-links {
+        flex-direction: column;
+    }
+}

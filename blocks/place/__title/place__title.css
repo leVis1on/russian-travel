@@ -23,3 +23,11 @@
         padding-bottom: 32px;
     }
 }
+
+@media (max-width: 425px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 1.09;
+        padding-left: 16px;
+    }
+}

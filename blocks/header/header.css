@@ -2,6 +2,7 @@
     padding: 28px 48px 0 48px;
     display: grid;
     grid-template-columns: 1fr min-content min-content;
+    max-width: 1184px;
 }
 
 @media (max-width: 768px) {
